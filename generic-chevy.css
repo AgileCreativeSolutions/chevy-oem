@@ -1,0 +1,435 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap');
+
+/* Louis */
+@font-face {
+font-display: fallback;
+font-family: "Louis-Italic";
+font-style: italic;
+font-weight: 400;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-italic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-italic-webfont.woff") format("woff")
+}
+
+@font-face {
+font-display: fallback;
+font-family: "Louis";
+font-style: normal;
+font-weight: 400;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-regular-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-regular-webfont.woff") format("woff")
+}
+
+@font-face {
+font-display: fallback;
+font-family: "Louis-Bold-Italic";
+font-style: italic;
+font-weight: 700;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bolditalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bolditalic-webfont.woff") format("woff")
+}
+
+@font-face {
+font-display: fallback;
+font-family: "Louis-Bold";
+font-style: normal;
+font-weight: 700;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bold-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bold-webfont.woff") format("woff")
+}
+
+@font-face {
+font-display: fallback;
+font-family: "Louis-Heavy-Italic";
+font-style: italic;
+font-weight: 900;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavyitalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavyitalic-webfont.woff") format("woff")
+}
+
+@font-face {
+font-display: fallback;
+font-family: "Louis-Heavy";
+font-style: normal;
+font-weight: 900;
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavy-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavy-webfont.woff") format("woff")
+}
+
+
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
+font-family: "Louis", "Roboto", sans-serif;
+font-weight: 400;
+line-height: 1.2;
+}
+
+.acs-h1 {
+font-size: 2rem;
+}
+
+.acs-h2 {
+font-size: 1.8rem;
+}
+
+.acs-h3 {
+font-size: 1.6rem;
+}
+
+.acs-h4 {
+font-size: 1.4rem;
+}
+
+.acs-h5 {
+font-size: 1.2rem;
+}
+
+.acs-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.acs-h1 {
+font-size: 2.5rem !important;
+}
+
+.acs-h2 {
+font-size: 2.2rem !important;
+}
+
+.acs-h3 {
+font-size: 1.8rem !important;
+}
+
+.acs-h4 {
+font-size: 1.6rem !important;
+}
+
+.acs-h5 {
+font-size: 1.4rem !important;
+}
+
+.acs-h6 {
+font-size: 1.2rem !important;
+}
+}
+
+
+.acs-wrapper { 
+font-family: 'Roboto', sans-serif;
+}
+
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+
+.acs-chevy-brand {
+font-family: "Louis";  
+font-weight: 400;
+}
+
+.acs-chevy-brand-italic {
+font-family: "Louis-Italic";  
+font-weight: 400;
+}
+
+.acs-chevy-brand-bold {
+font-family: "Louis-Bold";  
+font-weight: 700;
+}
+
+.acs-chevy-brand-bold-italic {
+font-family: "Louis-Bold-Italic";  
+font-weight: 700;
+}
+
+.acs-chevy-brand-heavy {
+font-family: "Louis-Heavy"; 
+font-weight: 900;
+}
+
+.acs-chevy-brand-heavy-italic {
+font-family: "Louis-Heavy-Italic"; 
+font-weight: 900;
+}
+
+
+
+/* Variables */
+.acs-wrapper {
+--accent: #cd9834;
+--accent2: #0058B3;
+--accent3: #0068c3;
+--gray: #F2F2F2;
+--gray2: #6E6E6E;
+--gray3: #B3B3B3;
+--gray4: #E6E6E6;
+--gray5: #636363;
+--gray6: #808080;
+--dark: #262626;
+--dark2: #282829;
+--dark3: #1A1A1A;
+--bold-font: "Roboto", sans-serif;
+}
+
+
+
+/* Text Colors */
+.acs-gray {
+color: var(--gray)
+}
+.acs-gray2 {
+color: var(--gray2)
+}
+.acs-gray3 {
+color: var(--gray3)
+}
+.acs-gray4 {
+color: var(--gray4)
+}
+.acs-gray5 {
+color: var(--gray5)
+}
+.acs-gray6 {
+color: var(--gray6)
+}
+.acs-dark {
+color: var(--dark)
+}
+.acs-dark2 {
+color: var(--dark2)
+}
+.acs-dark3 {
+color: var(--dark3)
+}
+
+
+/* Accent Colors */
+.acs-accent {
+color: var(--accent)
+}
+.acs-accent2 {
+color: var(--accent2)
+}
+.acs-accent3 {
+color: var(--accent3)
+}
+
+
+
+/* BG Colors */
+.acs-bg-accent {
+background-color: var(--accent)
+}
+.acs-bg-accent2 {
+background-color: var(--accent2)
+}
+.acs-bg-accent3 {
+background-color: var(--accent3)
+}
+.acs-bg-gray {
+background-color: var(--gray)
+}
+.acs-bg-gray2 {
+background-color: var(--gray2)
+}
+.acs-bg-gray3 {
+background-color: var(--gray3)
+}
+.acs-bg-gray4 {
+background-color: var(--gray4)
+}
+.acs-bg-gray5 {
+background-color: var(--gray5)
+}
+.acs-bg-gray6 {
+background-color: var(--gray6)
+}
+.acs-bg-dark {
+background-color: var(--dark)
+}
+.acs-bg-dark2 {
+background-color: var(--dark2)
+}
+.acs-bg-dark3 {
+background-color: var(--dark3)
+}
+
+
+
+
+/* Link Accent */
+.acs-link-accent {
+text-decoration: underline;
+color: inherit;
+transition: all 0.1s ease-in-out 0s;
+}
+.acs-link-accent:hover {
+color: var(--accent) !important; 
+}
+
+
+
+/* BUTTONS: START */
+/* Button 1 */
+.acs-button {
+background-color: transparent;
+border-radius: 0;
+display: inline-block;
+text-align: center;
+color: var(--dark);
+border: solid .125rem var(--accent);
+text-decoration: none !important;
+padding: .8rem 0;
+font: 700 16px "Roboto", "Helvetica", sans-serif;
+line-height: 1.965;
+min-width: 270px;
+transition: background;
+transition-duration: 0s;
+transition-timing-function: ease;
+transition-duration: .25s;
+transition-timing-function: cubic-bezier(0,1,0.5,1);
+}
+.acs-button:hover {
+background-color: var(--accent);
+color: var(--dark);
+border: solid .125rem var(--accent)
+}
+
+/* Button 2 */
+.acs-button2 {
+background-color: transparent;
+border-radius: 0;
+display: inline-block;
+text-align: center;
+color: #fff;
+border: solid .125rem var(--accent);
+text-decoration: none !important;
+padding: .8rem 0;
+font: 700 16px "Roboto", "Helvetica", sans-serif;
+line-height: 1.965;
+min-width: 270px;
+transition: background;
+transition-duration: 0s;
+transition-timing-function: ease;
+transition-duration: .25s;
+transition-timing-function: cubic-bezier(0,1,0.5,1);
+}
+.acs-button2:hover {
+background-color: var(--accent);
+color: #fff;
+border: solid .125rem var(--accent)
+}
+
+/* Button 3 */
+.acs-button3 {
+background-color: transparent;
+border-radius: 0;
+display: inline-block;
+text-align: center;
+color: var(--dark);
+border: solid .125rem var(--gray5);
+text-decoration: none !important;
+padding: .8rem 0;
+font: 700 16px "Roboto", "Helvetica", sans-serif;
+line-height: 1.965;
+min-width: 270px;
+transition: background;
+transition-duration: 0s;
+transition-timing-function: ease;
+transition-duration: .25s;
+transition-timing-function: cubic-bezier(0,1,0.5,1);
+}
+.acs-button3:hover {
+background-color: var(--gray5);
+color: #fff;
+border: solid .125rem var(--gray5)
+}
+
+/* Button 4 */
+.acs-button4 {
+background-color: transparent;
+border-radius: 0;
+display: inline-block;
+text-align: center;
+color: var(--accent);
+border: solid .125rem var(--accent);
+text-decoration: none !important;
+padding: .8rem 0;
+font: 700 16px "Roboto", "Helvetica", sans-serif;
+line-height: 1.965;
+min-width: 270px;
+transition: background;
+transition-duration: 0s;
+transition-timing-function: ease;
+transition-duration: .25s;
+transition-timing-function: cubic-bezier(0,1,0.5,1);
+}
+.acs-button4:hover {
+background-color: var(--accent);
+color: var(--dark);
+border: solid 1px var(--accent)
+}
+
+/* Button 5 & 6 for chevy electric*/
+.acs-button5 {
+background-color: var(--accent2);
+color: rgb(255, 255, 255);
+cursor: pointer;
+flex-direction: row;
+transition-duration: 150ms;
+transition-property: background-color, border, color, opacity;
+transition-timing-function: ease-in;
+-moz-box-align: center;
+align-items: center;
+border-radius: 24px;
+border: solid 2px var(--accent2);
+display: inline-flex;
+height: 48px;
+-moz-box-pack: center;
+justify-content: center;
+padding: 0px 2rem;
+white-space: nowrap;
+width: 250px;
+font-family: "Roboto", "Helvetica", sans-serif;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 0.05em;
+line-height: 13px;
+text-transform: uppercase;
+text-decoration: none !important;
+}
+.acs-button5:hover {
+background-color: var(--accent3);
+color: rgb(255, 255, 255);
+border: solid 2px var(--accent3)
+}
+
+.acs-button6 {
+background-color: transparent;
+color: rgb(255, 255, 255);
+cursor: pointer;
+flex-direction: row;
+transition-duration: 150ms;
+transition-property: background-color, border, color, opacity;
+transition-timing-function: ease-in;
+-moz-box-align: center;
+align-items: center;
+border-radius: 24px;
+border: solid 2px rgb(255, 255, 255);
+display: inline-flex;
+height: 48px;
+-moz-box-pack: center;
+justify-content: center;
+padding: 0px 2rem;
+white-space: nowrap;
+width: 250px;
+font-family: "Roboto", "Helvetica", sans-serif;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 0.05em;
+line-height: 13px;
+text-transform: uppercase;
+text-decoration: none !important;
+}
+.acs-button6:hover {
+background-color: rgb(255, 255, 255);
+color: var(--dark);
+border: solid 2px rgb(255, 255, 255)
+}
+/* BUTTONS: END */
