@@ -363,7 +363,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1);
 .acs-button4:hover {
 background-color: var(--accent);
 color: var(--dark);
-border: solid 1px var(--accent)
+border: solid .125rem var(--accent)
 }
 
 /* Button 5 & 6 for chevy electric*/
