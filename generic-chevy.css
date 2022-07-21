@@ -1,3 +1,4 @@
+/* OEM Font Embed */
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap');
 
@@ -7,7 +8,7 @@ font-display: fallback;
 font-family: "Louis-Italic";
 font-style: italic;
 font-weight: 400;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-italic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-italic-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-italic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-italic-webfont.woff") format("woff")
 }
 
 @font-face {
@@ -15,7 +16,7 @@ font-display: fallback;
 font-family: "Louis";
 font-style: normal;
 font-weight: 400;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-regular-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-regular-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-regular-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-regular-webfont.woff") format("woff")
 }
 
 @font-face {
@@ -23,7 +24,7 @@ font-display: fallback;
 font-family: "Louis-Bold-Italic";
 font-style: italic;
 font-weight: 700;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bolditalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bolditalic-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bolditalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bolditalic-webfont.woff") format("woff")
 }
 
 @font-face {
@@ -31,7 +32,7 @@ font-display: fallback;
 font-family: "Louis-Bold";
 font-style: normal;
 font-weight: 700;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bold-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-bold-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bold-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bold-webfont.woff") format("woff")
 }
 
 @font-face {
@@ -39,7 +40,7 @@ font-display: fallback;
 font-family: "Louis-Heavy-Italic";
 font-style: italic;
 font-weight: 900;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavyitalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavyitalic-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavyitalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavyitalic-webfont.woff") format("woff")
 }
 
 @font-face {
@@ -47,10 +48,22 @@ font-display: fallback;
 font-family: "Louis-Heavy";
 font-style: normal;
 font-weight: 900;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavy-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/head/css/fonts/louis-heavy-webfont.woff") format("woff")
+src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavy-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavy-webfont.woff") format("woff")
 }
+/* OEM Font Embed */
 
 
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: 'Roboto', sans-serif;
+font-weight: 400 !important
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "Louis", "Roboto", sans-serif;
 font-weight: 400;
@@ -107,18 +120,11 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: 'Roboto', sans-serif;
-font-weight: 400 !important
-}
 
-.acs-bold {
-font-family: var(--bold-font);   
-font-weight: 700;
-}
-
+/* OEM Font Variables */
 .acs-chevy-brand {
 font-family: "Louis";  
 font-weight: 400;
@@ -149,6 +155,12 @@ font-family: "Louis-Heavy-Italic";
 font-weight: 900;
 }
 
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -167,6 +179,7 @@ font-weight: 900;
 --dark3: #1A1A1A;
 --bold-font: "Roboto", sans-serif;
 }
+/* Variables */
 
 
 
@@ -198,6 +211,8 @@ color: var(--dark2)
 .acs-dark3 {
 color: var(--dark3)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -210,47 +225,72 @@ color: var(--accent2)
 .acs-accent3 {
 color: var(--accent3)
 }
+/* Accent Colors */
 
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(205,152,51, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(31,88,179, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(37,104,195, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(242,242,242, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(110,110,110, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(179,179,179, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
-background-color: var(--gray4)
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(230,230,230, var(--acs-bg-opacity))
 }
 .acs-bg-gray5 {
-background-color: var(--gray5)
+--acs-bg-opacity: 1;
+background-color: var(--gray5);
+background-color: rgba(99,99,99, var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
-background-color: var(--gray6)
+--acs-bg-opacity: 1;
+background-color: var(--gray6);
+background-color: rgba(128,128,128, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(38,38,38, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(40,40,42, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(26,26,26, var(--acs-bg-opacity))
 }
-
+/* BG Colors */
 
 
 
@@ -263,6 +303,7 @@ transition: all 0.1s ease-in-out 0s;
 .acs-link-accent:hover {
 color: var(--accent) !important; 
 }
+/* Link Accent */
 
 
 
@@ -368,6 +409,7 @@ border: solid .125rem var(--accent)
 }
 
 /* Button 5 & 6 for chevy electric*/
+/* Button 5 */
 .acs-button5 {
 background-color: var(--accent2);
 color: rgb(255, 255, 255);
@@ -401,6 +443,7 @@ color: rgb(255, 255, 255);
 border: solid 2px var(--accent3)
 }
 
+/* Button 6 */
 .acs-button6 {
 background-color: transparent;
 color: rgb(255, 255, 255);
