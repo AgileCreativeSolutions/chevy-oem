@@ -476,4 +476,29 @@ background-color: rgb(255, 255, 255);
 color: var(--dark);
 border: solid 2px rgb(255, 255, 255)
 }
+
+/* Button 7 */
+.acs-button7 {
+background-color: transparent;
+border-radius: 0;
+display: inline-block;
+text-align: center;
+color: var(--dark) !important;
+border: solid .125rem var(--gray3);
+text-decoration: none !important;
+padding: .8rem 0;
+font: 700 16px "Roboto", "Helvetica", sans-serif;
+line-height: 1.965;
+min-width: 270px;
+transition: background;
+transition-duration: 0s;
+transition-timing-function: ease;
+transition-duration: .25s;
+transition-timing-function: cubic-bezier(0,1,0.5,1);
+}
+.acs-button7:hover {
+background-color: var(--gray3);
+color: var(--dark) !important;
+border: solid .125rem var(--gray3)
+}
 /* BUTTONS: END */
