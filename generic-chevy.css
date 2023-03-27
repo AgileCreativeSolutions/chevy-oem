@@ -3,53 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap');
 
 /* Louis */
-@font-face {
-font-display: fallback;
-font-family: "Louis-Italic";
-font-style: italic;
-font-weight: 400;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-italic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-italic-webfont.woff") format("woff")
-}
-
-@font-face {
-font-display: fallback;
-font-family: "Louis";
-font-style: normal;
-font-weight: 400;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-regular-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-regular-webfont.woff") format("woff")
-}
-
-@font-face {
-font-display: fallback;
-font-family: "Louis-Bold-Italic";
-font-style: italic;
-font-weight: 700;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bolditalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bolditalic-webfont.woff") format("woff")
-}
-
-@font-face {
-font-display: fallback;
-font-family: "Louis-Bold";
-font-style: normal;
-font-weight: 700;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bold-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-bold-webfont.woff") format("woff")
-}
-
-@font-face {
-font-display: fallback;
-font-family: "Louis-Heavy-Italic";
-font-style: italic;
-font-weight: 900;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavyitalic-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavyitalic-webfont.woff") format("woff")
-}
-
-@font-face {
-font-display: fallback;
-font-family: "Louis-Heavy";
-font-style: normal;
-font-weight: 900;
-src: url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavy-webfont.woff2") format("woff2"), url("https://www.chevrolet.com/etc/clientlibs/chevrolet/resources/fonts/louis-heavy-webfont.woff") format("woff")
-}
+@import url('https://fonts.cdnfonts.com/css/louis');              
 /* OEM Font Embed */
 
 
@@ -131,28 +85,28 @@ font-weight: 400;
 }
 
 .acs-chevy-brand-italic {
-font-family: "Louis-Italic";  
-font-weight: 400;
+font-family: "Louis";  
+font-weight: 450;
 }
 
 .acs-chevy-brand-bold {
-font-family: "Louis-Bold";  
-font-weight: 700;
+font-family: "Louis";  
+font-weight: 500;
 }
 
 .acs-chevy-brand-bold-italic {
-font-family: "Louis-Bold-Italic";  
-font-weight: 700;
+font-family: "Louis";  
+font-weight: 550;
 }
 
 .acs-chevy-brand-heavy {
-font-family: "Louis-Heavy"; 
-font-weight: 900;
+font-family: "Louis"; 
+font-weight: 700;
 }
 
 .acs-chevy-brand-heavy-italic {
-font-family: "Louis-Heavy-Italic"; 
-font-weight: 900;
+font-family: "Louis"; 
+font-weight: 750;
 }
 
 .acs-bold {
