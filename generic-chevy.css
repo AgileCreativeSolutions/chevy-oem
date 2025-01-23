@@ -9,7 +9,7 @@
 
 
 /* OEM Font */
-.acs-wrapper { 
+.acs-wrapper, .acs-oem-brand { 
 font-family: 'Roboto', sans-serif;
 font-weight: 400 !important
 }
@@ -118,7 +118,7 @@ font-weight: 700;
 
 
 /* Variables */
-.acs-wrapper {
+.acs-wrapper, .acs-oem-brand {
 --accent: #cd9834;
 --accent2: #0058B3;
 --accent3: #0068c3;
